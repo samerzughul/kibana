@@ -125,7 +125,7 @@ function setBadge(application: ApplicationStart, chrome: ChromeStart) {
 function setTitle(chrome: ChromeStart) {
   chrome.docTitle.change(
     i18n.translate('devTools.pageTitle', {
-      defaultMessage: 'Dev Tools',
+      defaultMessage: 'Dev Tools New Label',
     })
   );
 }
@@ -134,7 +134,7 @@ function setBreadcrumbs(chrome: ChromeStart) {
   chrome.setBreadcrumbs([
     {
       text: i18n.translate('devTools.k7BreadcrumbsDevToolsLabel', {
-        defaultMessage: 'Dev Tools',
+        defaultMessage: 'Dev Tools New Bread Crumbs',
       }),
       href: '#/',
     },

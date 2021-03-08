@@ -46,7 +46,7 @@ export class DevToolsPlugin implements Plugin<DevToolsSetup, void> {
     applicationSetup.register({
       id: 'dev_tools',
       title: i18n.translate('devTools.devToolsTitle', {
-        defaultMessage: 'Dev Tools',
+        defaultMessage: 'Dev Tools New Label',
       }),
       updater$: this.appStateUpdater,
       euiIconType: 'logoElastic',

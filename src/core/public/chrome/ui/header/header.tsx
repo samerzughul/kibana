@@ -125,6 +125,7 @@ export function Header({
                     navigateToApp={application.navigateToApp}
                     loadingCount$={observables.loadingCount$}
                   />,
+                  // <a style={{color:'white'}}></a>
                 ],
                 borders: 'none',
               },
@@ -205,6 +206,7 @@ export function Header({
             </EuiHeaderSection>
           </EuiHeader>
         </div>
+       
 
         <CollapsibleNav
           appId$={application.currentAppId$}

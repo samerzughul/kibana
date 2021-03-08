@@ -92,7 +92,7 @@ export function HeaderLogo({ href, navigateToApp, loadingCount$, ...observables 
   return (
     <a
       onClick={(e) => onClick(e, forceNavigation, navLinks, navigateToApp)}
-      className="euiHeaderLogo"
+      // className="euiHeaderLogo"
       href={href}
       data-test-subj="logo"
       aria-label={i18n.translate('core.ui.chrome.headerGlobalNav.goHomePageIconAriaLabel', {
